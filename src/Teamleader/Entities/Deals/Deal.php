@@ -21,7 +21,7 @@ class Deal extends Model
         'title',
         'source', // { "type": "", "id" : "" }
         'department', // { "type": "", "id" : "" }
-        'responsible_user', // { "type": "", "id" : "" }
+        'responsible_user_id',
         'current_phase', // { "type" : "", "id" : "" }
         'estimated_value',
         'estimated_probability',
